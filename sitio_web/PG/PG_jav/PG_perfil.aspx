@@ -44,35 +44,35 @@
 	
 
 	<div class="col-sm-9">
-  <form>
+  <form runat="server">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="txtRut">Rut</label>
-      <input type="email" class="form-control" name="txtRut" id="txtRut">
+      <input type="text" class="form-control" name="txtRut" id="txtRut" runat="server">
     </div>
     <div class="form-group col-md-6">
       <label for="txtNonbre">Nombre</label>
-      <input type="password" class="form-control"  name="txtNonbre" id="txtNombre">
+      <input type="text" class="form-control"  name="txtNonbre" id="txtNombre" runat="server">
     </div>
   </div>
   <div class="form-group">
     <label for="txtApP">Apellido paterno</label>
-    <input type="text" class="form-control" name="txtApP" id="txtApP" >
+    <input type="text" class="form-control" name="txtApP" id="txtApP" runat="server" >
   </div>
   <div class="form-group">
     <label for="txtApM">Apellido materno</label>
-    <input type="text" class="form-control" name="txtApM" id="txtApM">
+    <input type="text" class="form-control" name="txtApM" id="txtApM" runat="server">
   </div>  
  <div class="form-group">
     <label for="txtCorreo">Correo</label>
-    <input type="text" class="form-control" name="txtCorreo" id="txtCorreo">
+    <input type="text" class="form-control" name="txtCorreo" id="txtCorreo" runat="server">
   </div>  
 <div class="form-group">
     <label for="txtTelefono">Telefono</label>
-    <input type="text" class="form-control" name="txtTelefono" id="txtTelefono">
+    <input type="text" class="form-control" name="txtTelefono" id="txtTelefono" runat="server">
   </div> 
   
-  <button type="submit" class="btn btn-primary">Guardar</button>
+ <%--<asp:Button class="btn btn-primary" style="margin-bottom: 0" ID="Button1" Text="Guardar" OnClick="BtnGuardar" runat="server"  />--%>
 </form>
 </div>
 	</div>

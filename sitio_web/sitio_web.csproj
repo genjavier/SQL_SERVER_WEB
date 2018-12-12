@@ -131,7 +131,6 @@
     <Content Include="PG\PG_jav\Login.aspx" />
     <Content Include="PG\PG_jav\Registrarse.aspx" />
     <Content Include="PG\PG_sot\AAAA.html" />
-    <Content Include="PG\PG_sot\PG_color.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -193,6 +192,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CLLogin.cs" />
     <Compile Include="PG\PG_logeadas\PG_Maestra_Login\PG_maestra_login.Master.cs">
       <DependentUpon>PG_maestra_login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,13 +227,6 @@
     </Compile>
     <Compile Include="PG\PG_jav\Registrarse.aspx.designer.cs">
       <DependentUpon>Registrarse.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PG\PG_sot\PG_color.aspx.cs">
-      <DependentUpon>PG_color.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PG\PG_sot\PG_color.aspx.designer.cs">
-      <DependentUpon>PG_color.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

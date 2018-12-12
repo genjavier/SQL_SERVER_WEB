@@ -17,8 +17,7 @@ namespace Biblioteca.conexion
         private SqlCommand cmd;
 
 
-        private BD_conexion()
-
+        public BD_conexion()
         {
             string connectionString = string.Format("Data Source=GENOMA;Initial Catalog=ropa;Integrated Security=True");
             cnn = new SqlConnection(connectionString);
@@ -43,14 +42,35 @@ namespace Biblioteca.conexion
         }
         public DataTable mySQLSelect(string mysql)
         {
-
-            SqlCommand cmd = new SqlCommand(mysql, cnn);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            //SqlCommand cmd = new SqlCommand(mysql, cnn);
+            SqlDataAdapter da = new SqlDataAdapter(mysql, cnn);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
         }
-        
+
+
+
+        public bool loginExecute(string sqlCmd, ArrayList valores)
+        {
+            SqlCommand cmd = new SqlCommand(sqlCmd, cnn);
+            cnn.Open();
+            cmd.CommandType = CommandType.StoredProcedure;
+            //cmd.Parameters.AddWithValue("@param", Convert.ToInt32(Textbox1.Text));
+            /*cmd.Parameters.AddWithValue("@rut", 1);
+            cmd.Parameters.AddWithValue("@nombre", "Harrys");*/
+            for (int i = 0; i < valores.Count; i++)
+            {
+                Parametros xx = (Parametros)valores[i];
+                cmd.Parameters.AddWithValue("@" + xx.valor, xx.clave);
+            }
+            bool correcto = Convert.ToInt32(cmd.ExecuteScalar()) > 0;
+
+            cnn.Close();
+            return correcto;
+        }
+
+
         public int SqlExecuteProcedure(string sqlCmd, ArrayList valores)
         {
             SqlCommand cmd = new SqlCommand(sqlCmd, cnn);
