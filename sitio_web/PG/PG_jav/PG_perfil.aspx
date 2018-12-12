@@ -47,28 +47,28 @@
   <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
+      <label for="txtRut">Rut</label>
       <input type="email" class="form-control" name="txtRut" id="txtRut">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
+      <label for="txtNonbre">Nombre</label>
       <input type="password" class="form-control"  name="txtNonbre" id="txtNombre">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputAddress">Address</label>
+    <label for="txtApP">Apellido paterno</label>
     <input type="text" class="form-control" name="txtApP" id="txtApP" >
   </div>
   <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
+    <label for="txtApM">Apellido materno</label>
     <input type="text" class="form-control" name="txtApM" id="txtApM">
   </div>  
  <div class="form-group">
-    <label for="inputAddress3">Address 2</label>
+    <label for="txtCorreo">Correo</label>
     <input type="text" class="form-control" name="txtCorreo" id="txtCorreo">
   </div>  
 <div class="form-group">
-    <label for="inputAddress3">Address 2</label>
+    <label for="txtTelefono">Telefono</label>
     <input type="text" class="form-control" name="txtTelefono" id="txtTelefono">
   </div> 
   
