@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sitio_web", "sitio_web\sitio_web.csproj", "{BFD6AB85-C6B7-4233-9ACE-8E3EDCDBDF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{0FFB5CE6-A2E4-44B3-A8E8-60C7C56DE525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD6AB85-C6B7-4233-9ACE-8E3EDCDBDF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD6AB85-C6B7-4233-9ACE-8E3EDCDBDF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD6AB85-C6B7-4233-9ACE-8E3EDCDBDF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD6AB85-C6B7-4233-9ACE-8E3EDCDBDF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFB5CE6-A2E4-44B3-A8E8-60C7C56DE525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFB5CE6-A2E4-44B3-A8E8-60C7C56DE525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFB5CE6-A2E4-44B3-A8E8-60C7C56DE525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFB5CE6-A2E4-44B3-A8E8-60C7C56DE525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4345536-15C4-4CFE-AA22-5FB0F4499BC9}
+	EndGlobalSection
+EndGlobal
