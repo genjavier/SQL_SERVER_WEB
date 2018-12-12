@@ -130,6 +130,7 @@
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="PG\PG_jav\Login.aspx" />
     <Content Include="PG\PG_jav\Registrarse.aspx" />
+    <Content Include="PG\PG_sot\AAAA.html" />
     <Content Include="PG\PG_sot\PG_color.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
