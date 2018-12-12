@@ -43,6 +43,7 @@ namespace Biblioteca.conexion
         }
         public DataTable mySQLSelect(string mysql)
         {
+
             SqlCommand cmd = new SqlCommand(mysql, cnn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
