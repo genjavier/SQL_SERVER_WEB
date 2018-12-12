@@ -32,10 +32,10 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<input type="text" id="txtClave" name="txtClave" class="form-control" placeholder="Correo" runat="server" >
+					<input type="text" id="password" name="password" class="form-control" placeholder="clave" runat="server" >
 				</div>
 				<div class="col">
-					<input type="text" id="txtClave2" name="txtClave2" class="form-control" placeholder="Telefono" runat="server" >
+					<input type="text" id="password2" name="password" class="form-control" placeholder="repite clave" runat="server" >
 				</div>
 			</div>
 			<asp:Button class="btn btn-primary" style="margin-bottom: 0" ID="Button1" Text="Agregar" OnClick="BtnAgregar" runat="server"  />

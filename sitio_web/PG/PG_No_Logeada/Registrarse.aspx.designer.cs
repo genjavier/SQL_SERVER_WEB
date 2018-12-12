@@ -67,22 +67,22 @@ namespace sitio_web.PG.PG_No_Logeada {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtTelefono;
         
         /// <summary>
-        /// Control txtClave.
+        /// Control password.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtClave;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText password;
         
         /// <summary>
-        /// Control txtClave2.
+        /// Control password2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtClave2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText password2;
         
         /// <summary>
         /// Control Button1.

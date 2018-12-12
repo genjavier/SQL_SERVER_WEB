@@ -23,8 +23,8 @@ namespace sitio_web.PG.PG_No_Logeada
             string apM = txtApMaterno.Value;
             string correo = txtCorreo.Value;
             string telefono = txtTelefono.Value;
-            string clave = txtClave.Value;
-            string clave_2 = txtClave2.Value;
+            string clave = password.Value;
+            string clave_2 = password2.Value;
 
             if (clave == clave_2)
             {
