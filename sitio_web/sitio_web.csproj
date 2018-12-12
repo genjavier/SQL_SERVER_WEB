@@ -124,12 +124,13 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="PG\PG_logeadas\PG_perfil.aspx" />
+    <Content Include="PG\PG_jav\PG_perfil.aspx" />
     <Content Include="PG\PG_Maestra\PG_maestra.Master" />
     <Content Include="PG\PG_logeadas\PG_Maestra_Login\PG_maestra_login.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="PG\PG_No_Logeada\Login.aspx" />
-    <Content Include="PG\PG_No_Logeada\Registrarse.aspx" />
+    <Content Include="PG\PG_jav\Login.aspx" />
+    <Content Include="PG\PG_jav\Registrarse.aspx" />
+    <Content Include="PG\PG_sot\PG_color.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -198,11 +199,11 @@
     <Compile Include="PG\PG_logeadas\PG_Maestra_Login\PG_maestra_login.Master.designer.cs">
       <DependentUpon>PG_maestra_login.Master</DependentUpon>
     </Compile>
-    <Compile Include="PG\PG_logeadas\PG_perfil.aspx.cs">
+    <Compile Include="PG\PG_jav\PG_perfil.aspx.cs">
       <DependentUpon>PG_perfil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PG\PG_logeadas\PG_perfil.aspx.designer.cs">
+    <Compile Include="PG\PG_jav\PG_perfil.aspx.designer.cs">
       <DependentUpon>PG_perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="PG\PG_Maestra\PG_maestra.Master.cs">
@@ -212,19 +213,26 @@
     <Compile Include="PG\PG_Maestra\PG_maestra.Master.designer.cs">
       <DependentUpon>PG_maestra.Master</DependentUpon>
     </Compile>
-    <Compile Include="PG\PG_No_Logeada\Login.aspx.cs">
+    <Compile Include="PG\PG_jav\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PG\PG_No_Logeada\Login.aspx.designer.cs">
+    <Compile Include="PG\PG_jav\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PG\PG_No_Logeada\Registrarse.aspx.cs">
+    <Compile Include="PG\PG_jav\Registrarse.aspx.cs">
       <DependentUpon>Registrarse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PG\PG_No_Logeada\Registrarse.aspx.designer.cs">
+    <Compile Include="PG\PG_jav\Registrarse.aspx.designer.cs">
       <DependentUpon>Registrarse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PG\PG_sot\PG_color.aspx.cs">
+      <DependentUpon>PG_color.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PG\PG_sot\PG_color.aspx.designer.cs">
+      <DependentUpon>PG_color.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

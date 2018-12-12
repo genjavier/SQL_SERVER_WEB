@@ -8,8 +8,8 @@
 	<div class="container">
 	<form runat="server">
 		<div class="form-group">
-			<label for="exampleInputEmail1">Email</label>
-			<input type="email" class="form-control" name="txtRut" id="txtRut" aria-describedby="emailHelp" placeholder="Rut" runat="server">
+			<label for="text">Email</label>
+			<input type="text" class="form-control" name="txtRut" id="txtRut" aria-describedby="emailHelp" placeholder="Rut" runat="server">
 			<small id="emailHelp" class="form-text text-muted">prueba de login </small>
 		</div>
 		<div class="form-group">
